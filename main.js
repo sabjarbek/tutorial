@@ -1,4 +1,4 @@
-function calcAge(year){
+/*function calcAge(year){
     return 2022-year
 }
 function infoMan(name, year){
@@ -11,3 +11,9 @@ function infoMan(name, year){
     }    
 }
 infoMan('Sanjar', 1990)
+*/
+const cars = ['volvo','mazda','ford']
+console.log(cars)
+console.log(cars[0])
+cars[cars.length]='porsche'
+console.log(cars)
