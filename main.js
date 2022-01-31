@@ -11,9 +11,18 @@ function infoMan(name, year){
     }    
 }
 infoMan('Sanjar', 1990)
-*/
+
 const cars = ['volvo','mazda','ford']
 console.log(cars)
 console.log(cars[0])
 cars[cars.length]='porsche'
 console.log(cars)
+*/
+const cars = ['volvo','mazda','ford']
+for(let i=0; i< cars.length; i++){
+    console.log(cars[i]);
+}
+for (let mash of cars){
+    console.log(mash)
+    
+}
